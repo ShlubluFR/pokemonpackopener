@@ -36,7 +36,7 @@ function openPack() {
         } else {
             num = randomNumber(3, 49);
         }
-        cardImg.src = "./fossil/ fossil (" + num.toString() + ").jpg";
+        cardImg.src = "./fossil/fossil (" + num.toString() + ").jpg";
 
         cardDiv.appendChild(cardImg);
 
